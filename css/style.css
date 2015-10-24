@@ -54,6 +54,7 @@ body{
 		}
 		.header_Principal figure a img{
 			width: 16.5em;
+			max-height: 72px;
 		}
 
 		.header_Principal hgroup{
