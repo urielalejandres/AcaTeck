@@ -1,0 +1,52 @@
+id
+->> Una sola etiqueta
+
+class
+->> Para varias etiquetas
+
+h1,h2,h3,h4,h5,h6
+->> Títulos
+
+Para poder agrupar títulos 
+->> hgroup
+
+
+*** CSS   ***
+
+Como se trabaja en el CSS
+
+nombre_Selector{
+	propiedad: valor
+}
+
+Ejemplo:
+h1{
+	color: red;
+}
+
+Propiedad para poder cambiar el color de fondo
+->> background :  red
+				  olive
+				  blue
+				  #EAEAEA
+				  rgb(255,255,255)
+
+Para aliniar el texto al centro
+->> text-align: center
+				left
+				right
+
+Los id 
+	->Son unicos e irrepetibles
+	->En el css se representa con #
+
+Las clases
+	->Se puedem repetir multiples veces
+	->En el css se representa con .
+
+Para modifica el ancho de una etiqueta utilizamos:
+	->> width : pixeles
+			width: 50px
+
+Para poder controlar el margen externo
+	->>margin: 
