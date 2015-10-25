@@ -50,3 +50,15 @@ Para modifica el ancho de una etiqueta utilizamos:
 
 Para poder controlar el margen externo
 	->>margin: 
+
+
+Links:
+git checkout master
+git add all
+
+http://rogerdudler.github.io/git-guide/index.es.html
+https://git-scm.com/book/es/v1/Fundamentos-de-Git-Trabajando-con-repositorios-remotos
+https://git-scm.com/book/es/v1/Fundamentos-de-Git-Obteniendo-un-repositorio-Git
+https://dreyacosta.com/comandos-basicos-para-manejarse-con-git-y-github/
+http://www.edy.es/dev/docs/git-guia-rapida/
+https://desktop.github.com/
