@@ -1,12 +1,11 @@
-*{	
-	font-size: 16px;
-	
-}
-body{
+
+html,body{
 	background: #E05050;
+	color: #232525;
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 }
 /*Container*/
 #container{
@@ -83,7 +82,81 @@ body{
 	min-height: 200px; 
 }
 
+/*Estilos del Slider*/
+#slides{
+    display:none;
+}
 
+    /*si se utiliza*/
+    #slides{
+      display: none;
+      margin-bottom:20px;
+    }
+    .slides img{
+      width: 100%;
+      max-height: 38em;
+      /*overflow: hidden;*/
+    }
+/*si se utiliza*/
+    .slidesjs-navigation {
+      margin-top:3px;
+    }
+/*si se utiliza*/
+    .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+/*si se utiliza posicionar el boton de next del slider*/
+    .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+/*Acomoda los botones de paginacion*/
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+/*Coloca los botones de paginacion uno al lado del otro*/
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+/*cambia la numeracion por la imagen de circulos*/
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url("../img/pagination.png");
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+/*asigna el color gris a las flechas <> del slider*/
+    a:link,
+    a:visited {
+      color: #333;
+    }
+
+    a:hover,
+    a:active {
+      color: #9e2020;
+    }
+
+   /* .navbar {
+      overflow: hidden;
+    }*/
+/*Fin de los Estilos del Slider*/
 
 
 
