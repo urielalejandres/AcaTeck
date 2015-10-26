@@ -91,10 +91,12 @@ html,body{
     #slides{
       display: none;
       margin-bottom:20px;
+
     }
     .slides img{
       width: 100%;
-      max-height: 38em;
+      max-height: 43em;
+
       /*overflow: hidden;*/
     }
 /*si se utiliza*/
