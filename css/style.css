@@ -201,10 +201,49 @@ p{
 	width: 10em;
 	height: 10em;
 	border-radius: 50%;	
+	transition: 1s transform ease;
+	/*animation: skew 3s infinite;*/
+  	/*animation-direction: alternate;*/
+
 }
 
+#articulos_Viejos article figure img:hover{
+	/*transform: rotate(360deg);*/
+	transform: scale(1.09);
+	/*transform: skew(20deg,-10deg);*/
+	box-shadow: 5px 5px 5px rgba(255,255,255,0.3);	
+}
 
+/*#articulos_Viejos article figure {
+	transition: 10s all ease;
+  	animation: back 10s infinite;
+  	animation-direction: alternate;
+}*/
+/*@keyframes back{
+	0%{
+		background: yellow;
+	}
 
+	30%{
+		background: red;
+	}
+	60%{
+		background: green;
+	}
+	100%{
+		background: blue;
+	}
+}*/
+
+/*@keyframes skew {
+  0% {
+    transform: rotate(50deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}*/
 
 
 
@@ -229,14 +268,19 @@ p{
 		text-align: justify;
 	}
 	.parrafo .figure_wrapper img{
-		width: 90%;
+		width: 100%;
 		transition: 0.5s all ease;
 	}
 
 	.parrafo .figure_wrapper img:hover{
-		width: 100%;
+		/*width: 100%;*/
+		transform: scaleX(1.2);
+		/*transform: skewX(-20deg);*/
+		/*transform: skewX(20deg);*/
+		/*transform: skew(20deg);*/
 	}
-}
+
+  
 
 @media screen and (min-width: 481px &&  max-width: 768px){
 	body{
