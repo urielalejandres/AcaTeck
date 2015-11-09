@@ -62,3 +62,11 @@ https://git-scm.com/book/es/v1/Fundamentos-de-Git-Obteniendo-un-repositorio-Git
 https://dreyacosta.com/comandos-basicos-para-manejarse-con-git-y-github/
 http://www.edy.es/dev/docs/git-guia-rapida/
 https://desktop.github.com/
+
+developer tools
+http://leaverou.github.io/prefixfree/
+https://necolas.github.io/normalize.css/
+
+
+elementos inline
+http://www.psdahtmlpasoapaso.com/blog/los-elementos-block-y-elementos-inline-fundamental

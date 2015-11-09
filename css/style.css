@@ -1,15 +1,19 @@
 
 html,body{
-	background: #E05050;
+	background: #FBFAFA;
 	color: #232525;
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 }
+p{
+	color: #8E8888;
+}
+
 /*Container*/
 #container{
-	background: yellow;
+	/*background: yellow;*/
 	text-align: center;
 }
 	#container article{
@@ -17,7 +21,11 @@ html,body{
 		display: inline-block;
 		vertical-align: top;
 		margin: 0 auto;
-		border: 1px solid green;
+		border-bottom: 2px solid #6A716A;
+		transition: 0.8s all ease;
+	}
+	#container article:hover{
+		background: #E4E0E0;
 	}
 		#container article hgroup h1{
 			font-size: 1.5em;
@@ -42,28 +50,32 @@ html,body{
 .header_Principal{
 	width: 100%;
 	display: inline-block;
-	background: red;
+	background: #2B437B;
 	position: relative;	
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 		.header_Principal figure{
 			display: inline-block;
-			background: white;
-			margin: 0;
+			/*background: white;*/
+			height: 72px;
+		
 		}
 		.header_Principal figure a img{
 			width: 16.5em;
-			max-height: 72px;
+			height: 72px;
+			line-height: 72px;
+			/*background: black;*/
 		}
 
 		.header_Principal hgroup{
 			display: inline-block;
-			background: green;
+			/*background: green;*/
 			/*vertical-align: top;*/
 			/*float: right*/
 			position: absolute;
 			right:  0;
 			width: 15.5em;
+			display: none;
 		}
 		.header_Principal hgroup h1{
 			font-size: 2.8em;	
@@ -91,10 +103,12 @@ html,body{
     #slides{
       display: none;
       margin-bottom:20px;
+
     }
     .slides img{
       width: 100%;
-      max-height: 38em;
+      max-height: 43em;
+
       /*overflow: hidden;*/
     }
 /*si se utiliza*/
@@ -159,11 +173,68 @@ html,body{
 /*Fin de los Estilos del Slider*/
 
 
+/*Aside*/
+
+#articulos_Viejos article{
+	border-top: 1.3px solid #387D5E;
+	margin-top: 15px;
+}
+#articulos_Viejos article hgroup h1{
+	text-align: center;
+	font-size: 1.6em;
+	letter-spacing: 1.8px;
+	text-shadow: 5px 5px 5px rgba(97, 97, 97, 0.92)
+}
+
+#articulos_Viejos article figure{
+	background: #3C81AB;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+	#articulos_Viejos article figure figcaption,
+	#articulos_Viejos article figure figcaption a{
+		color: #ffffff;
+	}
+#articulos_Viejos article figure img{
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;	
+}
 
 
-@media  screen and (max-width: 480px){
-	body{
-		background: red;
+
+
+
+
+
+/*Medias queryes*/
+
+
+@media  screen and (max-width: 360px){
+	header{
+		margin-bottom: 0px;
+	}
+
+	#articulos_Viejos {
+		overflow: hidden;
+	}
+
+	#container .parrafo{
+		display: block;
+		width: 98%
+	}
+	.parrafo p{
+		text-align: justify;
+	}
+	.parrafo .figure_wrapper img{
+		width: 90%;
+		transition: 0.5s all ease;
+	}
+
+	.parrafo .figure_wrapper img:hover{
+		width: 100%;
 	}
 }
 
