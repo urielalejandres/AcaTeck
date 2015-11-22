@@ -3,13 +3,16 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 	<meta name="description" content="El periodico más chismoso de todos, en el Estado de Guerrero" />
 	<title>AcaTeck</title>
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/normalize.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- <link href="css/bscss/bootstrap.min.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -326,8 +329,14 @@
 	<!-- Script para el Slider -->
 	<!-- End SlidesJS Required: Start Slides -->
   <!-- SlidesJS Required: Link to jQuery -->
-  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- Esta libreria de abajo la estoy omitiendo por la de bootstrap -->
+  <!--<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>-->
   <!-- End SlidesJS Required -->
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
   <!-- SlidesJS Required: Link to jquery.slides.js -->
   <script src="js/jquery.slides.min.js"></script>
@@ -346,9 +355,8 @@
         }
       });
       });
-
-
-    </script>
+    
+  </script>
 
 </body>
 </html>
