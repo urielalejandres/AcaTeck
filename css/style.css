@@ -93,6 +93,11 @@ p{
 	min-height: 200px; 
 }
 
+/*NavBar bootstrap*/
+nav.navbar-default{
+	margin-bottom: 0;
+}
+
 /* Anima */
 .carga{
 	width: 100%;
