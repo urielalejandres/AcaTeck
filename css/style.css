@@ -352,10 +352,25 @@ nav.navbar-default{
 }*/
 
 /*Se agrego footer*/
+
+.img-back{
+	min-height: 800px;
+	width: 100%;
+	background-image: url("../img/img-back.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin-top: 1em;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	overflow: hidden;
+}
+
+
+
+
 footer{
 	background: black;
 	min-height: 400px;
-	margin-top: 1em;
 	padding-bottom: 0;
 	margin-bottom: 0;
 	overflow: hidden;
@@ -375,10 +390,36 @@ footer .servicios ul , footer .categoria ul , footer .contacto ul {
 	list-style: none;
 	}
 
-footer p{
-	width: 100%;
+
+footer .info{
+
+	display: inline-block;
 	text-align: center;
+	vertical-align: middle;
+	width: 65%;
 }
+	footer .info p:nth-child(1){
+		margin-bottom: 0;
+		padding-bottom: 0;
+		font-size: 2em;
+	}
+
+	footer .info:last-child(){
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+footer .image-mono{
+	
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+	text-align: center;
+	margin-right: 2%; 
+}
+	footer .image-mono__figure{
+		width: 50%;
+	}
 
 /*Medias queryes*/
 
@@ -387,10 +428,10 @@ footer p{
 	header{
 		margin-bottom: 0px;
 	}
-
-	#articulos_Viejos {
+	#container{
+		width: 100%;
 		overflow: hidden;
-	}
+	}	
 
 	#container .parrafo{
 		display: block;
@@ -410,6 +451,14 @@ footer p{
 		/*transform: skewX(-20deg);*/
 		/*transform: skewX(20deg);*/
 		/*transform: skew(20deg);*/
+	}
+	#articulos_Viejos {
+		overflow: hidden;
+		width: 100%;
+	}
+
+	.img-back{
+		display: none;
 	}
 
  }
@@ -435,5 +484,9 @@ footer p{
 		display: inline-block;
 		vertical-align: top;
 		/*max-height: 463px;*/
+	}
+
+	.img-back{
+		display: none;
 	}
 }
