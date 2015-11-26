@@ -12,10 +12,8 @@ p{
 
 /*Container*/
 #container{
-	/*background: yellow;*/
 	text-align: center;
 	width: 75%;
-	/*background: red;*/
 	display: inline-block;
 	vertical-align: top;
 }
@@ -28,6 +26,7 @@ p{
 		transition: 0.8s all ease;
 		min-height: 500px;
 	}
+	
 	#container article:hover{
 		background: #E4E0E0;
 	}
@@ -240,7 +239,7 @@ nav.navbar-default{
 	font-size: 2.5em;
     letter-spacing: 2px;
     /*background: red;*/
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
 }
 #articulos_Viejos article{
 	border-left: 4px solid #2B437B;
@@ -354,19 +353,18 @@ nav.navbar-default{
 /*Se agrego footer*/
 
 .img-back{
-	min-height: 800px;
+	background: #2FAFE0;
 	width: 100%;
-	background-image: url("../img/img-back.jpg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	margin-top: 1em;
-	margin-bottom: 0;
-	padding-bottom: 0;
-	overflow: hidden;
 }
 
 
-
+.img-back__figure{
+	width: 100%;
+	margin: 0 auto;
+	min-height: 400px;
+	background-image: url("../img/img-back.jpg");
+	background-attachment: fixed;
+}
 
 footer{
 	background: black;
@@ -378,6 +376,7 @@ footer{
 
 footer .pub{
 	width: 100%;
+	margin-top: 1.5em;
 }
 
 footer .servicios, footer .categoria, footer .contacto{
@@ -416,6 +415,7 @@ footer .image-mono{
 	width: 30%;
 	text-align: center;
 	margin-right: 2%; 
+	margin-bottom: 1em;
 }
 	footer .image-mono__figure{
 		width: 50%;
@@ -435,13 +435,14 @@ footer .image-mono{
 
 	#container .parrafo{
 		display: block;
-		width: 98%
+		width: 92%;
+		overflow: hidden;
 	}
 	.parrafo p{
 		text-align: justify;
 	}
 	.parrafo .figure_wrapper img{
-		width: 100%;
+		width: 90%;
 		transition: 0.5s all ease;
 	}
 
@@ -462,6 +463,7 @@ footer .image-mono{
 	}
 
  }
+
 /*Tablet*/
 @media screen and (min-width: 767px) and (max-width: 1023px){
 	#container{
@@ -471,6 +473,7 @@ footer .image-mono{
 	#container article{
 		width: 46%;
 		overflow: hidden;
+		min-height: 550px;
 	}
 
 	#articulos_Viejos{
@@ -488,5 +491,16 @@ footer .image-mono{
 
 	.img-back{
 		display: none;
+	}
+}
+
+
+
+@media screen and (min-width: 768px) {
+	#container article:nth-child(even){
+		margin-right: -1.9px;
+	}
+	#container article:nth-child(odd){
+		margin-left: -1.9px;
 	}
 }
