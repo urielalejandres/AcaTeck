@@ -70,3 +70,13 @@ https://necolas.github.io/normalize.css/
 
 elementos inline
 http://www.psdahtmlpasoapaso.com/blog/los-elementos-block-y-elementos-inline-fundamental
+
+Noticias
+	Recientes
+	Antiguas
+
+Deportes
+
+Vida y Estilo
+
+Comics
